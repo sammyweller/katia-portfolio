@@ -23,24 +23,17 @@ html {
 a {
     color: black;
     text-decoration: none;
+    &:visited {
+    color: black
+    }
+    &:active {
+        color: #FDB92D;
+    }
+    &:hover, &:focus {
+        text-decoration: none;
+        color: #FDB92D;
+    }
 }
-
-a:visited {
-    /* visited link */
-    color: black;
-}
-
-a:active {
-    /* selected link */
-    color: FDB92D;
-}
-
-a:hover,
-a:focus {
-    text-decoration: none;
-    color: #FDB92D;
-}
-
 
 /* buttons */
 .button1,
@@ -269,7 +262,6 @@ a:focus {
 .page-footer {
     margin-top: auto;
     margin-bottom: 30px;
-    clear: both;
     display: flex;
     flex-direction: column;
     text-align: center;

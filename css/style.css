@@ -253,7 +253,6 @@ a:focus {
 .page-footer {
     margin-top: auto;
     margin-bottom: 30px;
-    clear: both;
     display: flex;
     flex-direction: column;
     text-align: center;

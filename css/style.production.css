@@ -323,7 +323,6 @@ a:focus {
 .page-footer {
     margin-top: auto;
     margin-bottom: 30px;
-    clear: both;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
